@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Ngigi - Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>My Projects</h1>
+    <p>My skills, projects and services</p>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="index.html#contacts">Contacts</a>
+    </nav>
+</header>
+<main>
+<section id="skills">
+    <h2>My Skills</h2>
+    <p>HTML</p>
+    <div class="bar">
+        <div class="html">85%</div>
+    </div>
+    <p>CSS</p>
+    <div class="bar">
+        <div class="css">80%</div>
+    </div>
+    <p>JavaScript</p>
+    <div class="bar">
+        <div class="javascript">65%</div>
+    </div>
+    <p>Git and GitHub</p>
+    <div class="bar">
+        <div class="github">70%</div>
+    </div>
+    <p>Problem Solving</p>
+    <div class="bar">
+        <div class="problem">75%</div>
+    </div>
+</section>
+<section id="projects">
+    <h2>My Projects</h2>
+    <button onclick="showProjects('all')">All</button>
+    <button type="button" onclick="showProjects('quiz')">Study Quiz App</button>
+    <button type="button" onclick="showProjects('converter')">Unit Converter</button>
+    <div id="project1" class="project web">
+        <h3>Personal Portfolio Website</h3>
+        <p>A personal website showing my information and contact details.</p>
+        <p><strong>Technologies:</strong> HTML, CSS</p>
+        <a href="index.html">View Project</a>
+    </div>
+      <div id="project2" class="project quiz">
+      <h3>Study Session Quiz App</h3>
+      <p>A study session quiz application designed to help students revise course topics through interactive questions and instant feedback.</p>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+      <a href="#" onclick="comingSoon(); return false;"> Coming Soon</a>
+    </div>
+    <div id="project3" class="project web">
+       <h3>Interactive Unit Converter Tool</h3>
+       <p>An interactive unit converter that allows users to quickly convert values between different units such as length, weight and temperature.</p>
+       <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+       <a href="#" onclick="comingSoon(); return false;">Coming Soon</a>
+    </div>
+</section>
+<section id="services">
+    <h2>Services</h2>
+    <ul>
+        <li>Basic Website Design</li>
+        <li>Website Styling using CSS</li>
+        <li>Basic HTML and CSS Tutoring</li>
+    </ul>
+</section>
+</main>
+<footer>
+    <p>&copy; 2026 Stephen Ngigi. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet"href="styles.css">
     <meta charset="UTF-8">
-    <title>my portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Ngigi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>   
-    <h1><strong>Stephen Ngigi</strong></h1>
-   <img src="images/profile.jpg.jpg" alt="profile.jpg" width="150" height="150"></br>
-   <p>software development student and aspiring web developer</p>
-   <nav>
-    <a href="#">home</a>
-    <a href="#projects">projects</a>
-    <a href="#contacts">contacts</a>
+
+<header>
+    <h1>Stephen Ngigi</h1>
+    <img src="images/profile.jpg.jpg" alt="Stephen Ngigi">
+    <p>Software development student and aspiring web developer</p>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="#contacts">Contacts</a>
     </nav>
 </header>
 <main>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>My name is Stephen Ngigi, a software development student <b>passionate about web development</b> at <strong>KCA University</strong> </p>
-        <p>I am constantly looking for new challenges to improve mr skills.</p>
-        <p>i hope to create impactful web applications in the futer.</p>
-    </section>
-    <section id="projects">
-        <p>coming soon <br> I will upload my projects here about my web development projevts</p> 
-    </section>
-    <section id="contacts">
-        <h3>Get In Touch</h3>
-        <p>I am open to new opportunities.</p>
+<section id="about">
+    <h2>About Me</h2>
+    <p>My name is Stephen Ngigi, a software development student passionate about web development at KCA University.</p>
+    <p>I am constantly looking for new challenges to improve my skills.</p>
+    <p>I hope to create impactful web applications in the future.</p>
+</section>
 
-        <ul>
-            <li>Email: <a href="mailto:stephenwakaya2@gmail.com>stephenwakaya2@gmail.com.</a></li>
-            <li>github: <a href="https://github.com/2607518-spec"></a></li>
-            <li>phone:0181226337</li>      
-        </ul>
-    </section>    
+<section id="contacts">
+    <h2>Get In Touch</h2>
+    <p>I am open to new opportunities.</p>
+    <ul>
+        <li>Email:<a href="mailto:stephenwakaya2@gmail.com">stephenwakaya2@gmail.com</a></li>
+        <li>GitHub:<a href="https://github.com/2607518-spec" target="_blank">My GitHub Profile</a></li>
+        <li>Phone: 0181226337</li>
+    </ul>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="email">Email:</label>
+        <input type="text" id="email">
+        <label for="message">Message:</label>
+        <textarea id="message"></textarea>
+        <button type="submit">Send Message</button>
+        <p id="error"></p>
+    </form>
+</section>
 </main>
 <footer>
-    <p>&copy; 2026 Your Name. All rights reserved.</p>
+    <p>&copy; 2026 Stephen Ngigi. All rights reserved.</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
-
- 
-
-
-
